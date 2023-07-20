@@ -3,7 +3,7 @@
 //  FruitApiCall
 //
 //  Created by Can Alpay on 20.07.2023.
-//
+
 
 import SwiftUI
 
