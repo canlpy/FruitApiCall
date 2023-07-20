@@ -11,6 +11,8 @@
 		360ED0FA2A697B10000929A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360ED0F92A697B10000929A2 /* ContentView.swift */; };
 		360ED0FC2A697B11000929A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360ED0FB2A697B11000929A2 /* Assets.xcassets */; };
 		360ED0FF2A697B11000929A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360ED0FE2A697B11000929A2 /* Preview Assets.xcassets */; };
+		360ED1062A697B40000929A2 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360ED1052A697B40000929A2 /* FruitViewModel.swift */; };
+		360ED1082A697B6D000929A2 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360ED1072A697B6D000929A2 /* Fruit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		360ED0F92A697B10000929A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		360ED0FB2A697B11000929A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360ED0FE2A697B11000929A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		360ED1052A697B40000929A2 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		360ED1072A697B6D000929A2 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		360ED0F62A697B10000929A2 /* FruitApiCall */ = {
 			isa = PBXGroup;
 			children = (
+				360ED1052A697B40000929A2 /* FruitViewModel.swift */,
+				360ED1072A697B6D000929A2 /* Fruit.swift */,
 				360ED0F72A697B10000929A2 /* FruitApiCallApp.swift */,
 				360ED0F92A697B10000929A2 /* ContentView.swift */,
 				360ED0FB2A697B11000929A2 /* Assets.xcassets */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360ED1082A697B6D000929A2 /* Fruit.swift in Sources */,
 				360ED0FA2A697B10000929A2 /* ContentView.swift in Sources */,
+				360ED1062A697B40000929A2 /* FruitViewModel.swift in Sources */,
 				360ED0F82A697B10000929A2 /* FruitApiCallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
